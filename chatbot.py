@@ -62,6 +62,7 @@ elif choice == "Ask a Health Question":
         elif "flu" in user_question.lower() or "cold" in user_question.lower():
             st.info("To avoid flu, wash hands often, avoid close contact with sick people, and get vaccinated.")
         elif choice == "Ask a Health Question":
+  elif choice == "Ask a Health Question":
     st.subheader("❓ Ask Me Anything")
     user_question = st.text_input("Type your health or hygiene question here:")
 
@@ -89,6 +90,7 @@ elif choice == "Ask a Health Question":
             st.info("Practice meditation, get enough sleep, and talk to someone you trust to maintain good mental health.")
         else:
             st.warning("Sorry, I’m still learning. For detailed advice, please consult a medical professional.")
+
 
         
 
