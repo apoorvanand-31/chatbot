@@ -66,7 +66,7 @@ elif choice == "Ask a Health Question":
         elif "teeth" in question or "brush" in question:
             st.info("Brush your teeth twice daily and floss regularly to maintain oral hygiene.")
         elif "exercise" in question or "fitness" in question:
-            st.info("Engage in at least 30 minutes of physical activity daily to stay fit and healthy and watch the fucking goat david gogging.")
+            st.info("Engage in at least 30 minutes of physical activity daily to stay fit and healthy and watch the fucking goat David Goggins.")
         elif "water" in question or "drink" in question:
             st.info("Drinking at least 8 glasses of water a day helps maintain hydration and flush out toxins.")
         elif "bath" in question or "shower" in question:
