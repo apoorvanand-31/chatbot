@@ -75,6 +75,8 @@ elif choice == "Ask a Health Question":
             st.info("Use mosquito repellents, nets, and avoid stagnant water to protect against mosquito-borne diseases.")
         elif "mental" in question or "stress" in question:
             st.info("Practice meditation, get enough sleep, and talk to someone you trust to maintain good mental health.")
+        elif "lazy" in question:
+            st.info("you are just a bitch because real men don't care about this shit.")
         else:
             st.warning("Sorry, I’m still learning. For detailed advice, please consult a medical professional.")
 
